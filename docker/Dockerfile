@@ -1,6 +1,6 @@
 # PHP-FPM is a FastCGI implementation for PHP.
 # Read more here: https://hub.docker.com/_/php
-FROM php:7.4-fpm
+FROM php:8.1-fpm
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
